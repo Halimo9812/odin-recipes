@@ -58,3 +58,21 @@ iframe{
         width: 100%;
         height: 100%;
 }
+
+@media screen and (max-width:768px){
+    
+    .food {
+        width: 100%; /* Image will take up the full width of its container */
+        max-width: 768px; /* Prevents image from stretching too large */
+        height: auto; /* Maintains aspect ratio */
+    }
+
+    h1, h2 {
+        font-size: 1.5rem; /* Smaller heading size */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+
+}
