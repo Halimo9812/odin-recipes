@@ -1,0 +1,43 @@
+
+body{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4em;
+    border: 1px solid black;
+    padding: 0px 15px 15px 15px;
+    background-color:burlywood;
+}
+
+.food{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    border: 2px solid black;
+    
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+.button {
+   background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;   
+}
+
+.box{
+    text-align: center;
+}
+
+
+em{
+    color:white;
+}

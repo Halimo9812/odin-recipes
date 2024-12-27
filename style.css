@@ -1,0 +1,22 @@
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    border: 2px solid black;
+}
+
+body{
+    background-color: bisque;
+}
+h1,h2{
+    text-align: center;
+}
+
+    ul {
+        text-align: center;
+        list-style-type: none; /* Removes the default bullets */
+        padding: 0;            /* Removes the default padding */
+        margin: 0;             /* Removes the default margin */
+    }
+
