@@ -1,39 +1,123 @@
-img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:800px;
-    border: 2px solid black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: bisque;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+    color: #333;
 }
-h1,h2{
+
+.landing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
 }
 
-    ul {
-        text-align: center;
-        list-style-type: none; /* Removes the default bullets */
-        padding: 0;            /* Removes the default padding */
-        margin: 0;             /* Removes the default margin */
+header {
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.hero-section {
+    margin-bottom: 50px;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    color: #444;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.recipes-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-item {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.recipe-item a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.recipe-item a:hover {
+    color: #d9534f;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #999;
+}
+
+footer .footer-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-image {
+        width: 100%;
+        max-width: 100%;
     }
 
-    @media  screen and (max-width:740px) {
-        img {
-            width: 100%;  /* Make the image take up the full width of its container */
-            max-width: 100%;  /* Prevent it from stretching too wide */
-            height: auto;  /* Maintain aspect ratio */
-            border-width: 1px;  /* Thinner border on mobile */
-        }
-
-        h1, h2 {
-            font-size: 1.5rem;  /* Smaller font size for headings */
-        }
-
-        ul {
-            padding-left: 10px;  /* Add some padding to make it look cleaner */
-        }
+    .main-title {
+        font-size: 2.5rem;
     }
 
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .recipe-item {
+        font-size: 1rem;
+    }
+}
